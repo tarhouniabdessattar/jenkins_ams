@@ -13,7 +13,7 @@ pipeline {
         }
         stage('Création image Docker') {
             steps {
-                sh 'docker build -t mezghich_ams_2024 .'
+                sh 'docker build -t tarhouni_ams_2024 .'
             }
         }
     }
